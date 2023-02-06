@@ -1,0 +1,79 @@
+body{
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+            .text-danger{
+                color: darkred !important;
+            }
+            .text-info{
+                color:skyblue !important;
+                opacity: 75%;
+            }
+            .bg-info{
+                background-color: rgba(135, 206, 235, 0.75) !important; 
+            }
+            .border-info{
+                border-color: rgba(135, 206, 235, 0.75) !important; 
+                
+            }
+            .carousel{
+                z-index: -1;
+            }
+            .sticky-top{
+                top: 10%;
+
+            }
+
+            .list-group-item{
+                padding: 0px;
+            }
+
+.top-25{
+    top: 25%;
+}
+.bottom-25{
+    bottom: 25%;
+}
+.insta{
+    fill: darkred;
+}
+.reel{
+    width: 60%;
+    height: auto; 
+    position: absolute;
+    translate: -50% -50%;
+    top: 50%;
+    left: 50%;
+    
+   
+    
+}
+.reel video{
+    border: solid 2px;    
+    border-radius: 2%;
+    border-color: rgba(139, 0, 0, 0.7);
+}
+
+video:fullscreen{
+    translate: 0 0;
+    border: none;
+}
+@media only screen and (max-width: 800px    ) {
+    .reel {
+        width: 100%;
+    }
+  }
+
+.dropdown-item:active{
+    background-color:darkred !important;
+}
+
+h5.card-footer {
+    font-size: smaller ;
+}
+
+h6.card-footer{
+    font-size: smaller ;
+    opacity: 50%;
+    margin-top: -5px;
+}
