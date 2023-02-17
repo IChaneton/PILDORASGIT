@@ -64,7 +64,7 @@ video:fullscreen{
     translate: 0 0;
     border: none;
 }
-@media only screen and (max-width: 800px    ) {
+@media only screen and (max-width: 540px    ) {
     .reel {
         width: 100%;
     }
