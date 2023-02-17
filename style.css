@@ -5,6 +5,10 @@ body{
 nav{
     box-shadow: 0px -50px 100px skyblue ;
 }
+.footer{
+    box-shadow: 0px 50px 200px skyblue ;
+}
+
             .text-danger{
                 color: darkred !important;
             }
