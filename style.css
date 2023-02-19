@@ -8,10 +8,9 @@ nav{
 .footer{
     box-shadow: 0px 50px 200px skyblue ;
 }
-.disabled{
-    color: skyblue !important;
-}
-
+            .disabled{
+                color: skyblue !important;
+            }
             .text-danger{
                 color: darkred !important;
             }
