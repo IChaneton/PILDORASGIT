@@ -3,11 +3,12 @@ body{
     margin-bottom: 5%;
 }
 nav{
-    box-shadow: 0px -50px 100px skyblue ;
+    box-shadow: 0px -50px 100px grey;
 }
 .footer{
-    box-shadow: 0px 50px 200px skyblue ;
+    box-shadow: 0px 50px 200px grey ;
 }
+           
             .disabled{
                 color: skyblue !important;
             }
@@ -43,7 +44,7 @@ nav{
     bottom: 25%;
 }
 .insta{
-    fill: darkred;
+    fill: red;
 }
 .reel{
     width: 60%;
@@ -57,7 +58,8 @@ nav{
     
 }
 .reel video{
-    border: solid 2px;    
+    padding: 5px;
+    border: solid 1px;    
     border-radius: 2%;
     border-color: rgba(139, 0, 0, 0.7);
 }
@@ -84,4 +86,8 @@ h6.card-footer{
     font-size: smaller ;
     opacity: 50%;
     margin-top: -5px;
+}
+.active{
+    color: darkred !important;
+    background-color: transparent !important;
 }
