@@ -36,6 +36,10 @@ nav{
             .list-group-item{
                 padding: 0px;
             }
+            .active{
+                color: darkred !important;
+                background-color: transparent !important;
+            }
 
 .top-25{
     top: 25%;
@@ -75,7 +79,7 @@ video:fullscreen{
   }
 
 .dropdown-item:active{
-    background-color:darkred !important;
+    background-color:transparent !important;
 }
 
 h5.card-footer {
@@ -86,8 +90,4 @@ h6.card-footer{
     font-size: smaller ;
     opacity: 50%;
     margin-top: -5px;
-}
-.active{
-    color: darkred !important;
-    background-color: transparent !important;
 }
