@@ -38,7 +38,7 @@ nav{
             }
             .active{
                 color: darkred !important;
-                background-color: transparent !important;
+                background-color: white !important;
             }
 
 .top-25{
@@ -78,10 +78,11 @@ video:fullscreen{
     }
   }
 
-/* .dropdown-item:active{
+.dropdown-item:active{
     background-color:transparent !important;
+    color: darkred !important;
     
-} */
+}
 
 h5.card-footer {
     font-size: smaller ;
