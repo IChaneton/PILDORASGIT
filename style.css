@@ -78,9 +78,10 @@ video:fullscreen{
     }
   }
 
-.dropdown-item:active{
+/* .dropdown-item:active{
     background-color:transparent !important;
-}
+    
+} */
 
 h5.card-footer {
     font-size: smaller ;
