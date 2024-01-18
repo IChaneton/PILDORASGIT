@@ -38,7 +38,7 @@ nav{
             }
             .active{
                 color: darkred !important;
-                background-color: white !important;
+                background-color:transparent !important;
             }
 
 .top-25{
